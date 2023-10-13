@@ -12,4 +12,6 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use(studentsRouter);
 
-app.listen(9098);
+const port = process.env.PORT || 9098;
+
+app.listen(port);
