@@ -1,0 +1,13 @@
+node_modules/
+!*.exe
+!*.ps1
+!*.dll
+key.js
+.env
+
+# build output
+/out/
+
+# macOS
+.DS_Store
+JavaScriptDatabaseGenerator.dll

@@ -1,0 +1,9 @@
+npm init -y && touch index.js
+
+npm i express
+npm i axios
+npm i dotenv
+npm i cors
+npm i cheerio
+
+node --watch .
